@@ -1,0 +1,34 @@
+# Simulador de Biblioteca Digital
+
+Este proyecto es un simulador de biblioteca digital que permite a los usuarios gestionar libros y revistas. Los usuarios pueden agregar nuevos materiales, buscar por título o autor, y gestionar el préstamo de libros.
+
+## Requisitos
+
+- Lenguaje de Programación: C++
+- Compilador: g++
+
+## Estructura del Proyecto
+
+El proyecto está organizado en varios archivos `.cpp` y `.h` para mantener una buena modularidad. Los archivos principales son:
+
+- `main.cpp`: Contiene la función principal y el menú interactivo para los usuarios.
+- `Biblioteca.h` / `Biblioteca.cpp`: Define la clase `Biblioteca` que gestiona los materiales y usuarios.
+- `MaterialBibliografico.h` / `MaterialBibliografico.cpp`: Clase base para los materiales bibliográficos.
+- `Libro.h` / `Libro.cpp`: Clase que representa un libro.
+- `Revista.h` / `Revista.cpp`: Clase que representa una revista.
+- `Usuario.h` / `Usuario.cpp`: Clase que representa a un usuario de la biblioteca.
+
+## Funcionalidades
+
+- **Agregar Material**: Permite agregar nuevos libros y revistas a la biblioteca.
+- **Buscar Material**: Los usuarios pueden buscar libros o revistas por título o ISBN.
+- **Listar Materiales**: Muestra todos los materiales disponibles en la biblioteca.
+- **Préstamo y Devolución**: Gestión del préstamo y devolución de materiales.
+
+## Cómo Compilar
+
+1. Abre una terminal en el directorio del proyecto.
+2. Compila el proyecto con el siguiente comando:
+
+   ```bash
+   g++ -o biblioteca main.cpp Biblioteca.cpp Libro.cpp Revista.cpp Usuario.cpp
