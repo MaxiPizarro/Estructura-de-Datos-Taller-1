@@ -1,5 +1,7 @@
 # Sistema de Gestión de Biblioteca
 
+## Nombre Titular : Maximiliano Pizarro, Rut:21.776.433-5, Parelelo C2
+
 ## Descripción del Proyecto
 
 Este proyecto consiste en crear un sistema que permite a los usuarios de una biblioteca realizar acciones como agregar nuevos libros, buscar libros por título o autor, y gestionar el préstamo de libros.
@@ -45,7 +47,8 @@ Este proyecto consiste en crear un sistema que permite a los usuarios de una bib
 ## Entregables
 
 - El proyecto debe estar disponible en GitHub con visibilidad pública antes del 22/09/2024.
-- El programa debe compilar correctamente con `g++`.
+- El programa debe compilar correctamente con `g++ -g -o main .\MaterialBibliografico.cpp .\Revista.cpp .\Libro.cpp .\Usuario.cpp .\Biblioteca.cpp .\main.cpp`.
+- El programa debe ser ejecutado con `main.exe`.
 - Incluir en el README información sobre los objetos creados en el `main` durante el inicio del programa.
 
 ### Ejemplo de Objeto en `main`
