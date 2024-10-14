@@ -2,6 +2,7 @@
 #define BIBLIOTECA_H
 
 #include <vector>
+#include "MaterialBibliografico.h"
 #include "Usuario.h"
 
 class Biblioteca {
